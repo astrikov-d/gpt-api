@@ -17,10 +17,14 @@ docker compose build
 docker compose up
 ```
 
-Open http://localhost/ping to check that you'll get proper response like
+Edit `.env` to set proper values for your `env` variables.
 
-```json
-{
-  "message": "pong"
-}
+Docs
+----
+
+Use `swag` package to generate API docs:
+
+```shell
+cd backend
+swag init
 ```

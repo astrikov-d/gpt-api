@@ -1,0 +1,27 @@
+info:
+  contact: {}
+paths:
+  /api/gpt/get_response/:
+    post:
+      consumes:
+      - application/json
+      parameters:
+      - description: prompt to pass to the GPT model
+        in: body
+        name: prompt
+        required: true
+        schema:
+          type: string
+      - description: context to pass to the GPT model
+        in: body
+        name: context
+        required: true
+        schema:
+          type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+      summary: Get GPT response and return result.
+swagger: "2.0"
