@@ -3,6 +3,11 @@ GPT API
 
 Basic golang experiments with GPT models.
 
+Purpose
+-------
+
+Repo was created to learn some basics of Go language.
+
 Setup
 -----
 
