@@ -1,0 +1,11 @@
+# IDE.
+.idea
+
+# Air.
+backend/tmp
+
+# Env files.
+.env
+
+# Build.
+tmp
